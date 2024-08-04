@@ -1,0 +1,49 @@
+.home-services {
+    padding: 30px 0px;
+    transition: all 0.3s ease;
+}
+.h-s-container{
+    width: 100%;
+
+}
+.h-s-icon{
+    margin: 10px 0px;
+}
+.hscon{
+    color: #fff;
+    
+}
+.h-s-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.h-s-text p {
+    font-size: 16px;
+    color:#FFFFFFCC ;
+    line-height: 1.5;
+    padding: 0px 40px;
+}
+
+
+@media screen and (min-width: 580px) and (max-width: 990px) {
+    .home-services {
+     background-color: transparent !important;
+      
+    }
+    .h-s-text p {
+        font-size: 16px;
+        padding: 0px 35px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .home-services {
+     background-color: transparent !important;
+    }
+    .h-s-text p {
+        font-size: 16px;
+        padding: 0px 5px;
+    }
+}

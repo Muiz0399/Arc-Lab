@@ -1,0 +1,50 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    max-width: 730px;
+    max-height: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: lightgrey;
+    position: relative;
+}
+
+.gm-err-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.gm-err-content {
+    max-width: 90%;
+}
+
+.gm-err-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.gm-err-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gm-err-message {
+    font-size: 16px;
+    color: #555;
+}

@@ -1,0 +1,180 @@
+.intro {
+    background-image: url("../../../img/bg_1.jpg");
+    background-position: 50% 350px;
+    height: 140vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.intro-container{
+    width: 100%;
+   margin: 0px auto;
+}
+.hero-caption {
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    padding: 180px 0px 100px 115px;
+    width: 60%;
+
+}
+
+.hero-caption span {
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    display: inline-block;
+}
+
+.hero-caption h1 {
+    font-size: 60px;
+    color: #000000;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.hero-caption h1::after {
+    display: block;
+    position: relative;
+    top: -210px;
+    left: 5px;
+    content: '';
+    width: 40px;
+    height: 4px;
+    background: #96bb7c;
+}
+
+.hero-caption p {
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.intro-btn{
+    display: flex;
+  
+}
+.hero-btn {
+   
+    color: #fff !important;
+    background: #96bb7c !important;
+    border: 1px solid #96bb7c !important;
+    padding: 18px 22px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+   
+}
+
+.hero-btn:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.intro-play{
+    display: flex;
+}
+.intro-play span{
+    color: #000000;
+    font-size: 16px;
+    padding-top: 19px;
+    cursor: pointer;
+}
+.in-play{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #96bb7c;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.i-play{
+padding-top: 19px;
+color: #fff;
+cursor: pointer;
+
+}
+
+
+@media screen and (min-width: 580px) and (max-width: 960px) {
+    .intro { 
+        height: 185vh;
+    }
+    
+    .intro::before { 
+        top: 158px;
+        bottom: -354px; 
+    }
+
+    .hero-caption {
+    
+        padding: 60px 0px 20px 35px;
+
+    }
+
+    .hero-caption span {
+        margin-bottom: 10px;
+    }
+
+    .hero-caption h1 { 
+        font-size: 45px;
+        margin-top: 0;
+    }
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .intro {
+        
+        height: 185vh;
+    }
+    
+    .intro::before { 
+        top: 158px;
+        bottom: -530px; 
+    }
+
+    .hero-caption {
+    
+        padding: 60px 15px 20px 15px;
+
+    }
+
+    .hero-caption span {
+        margin-bottom: 10px;
+    }
+
+    .hero-caption h1 { 
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .hero-caption p{
+        font-size: 18px;
+    }
+
+.hero-btn {
+    padding: 16px 8px;
+    font-size: 12px;
+}
+.intro-play span{
+    
+    font-size: 12px;
+ 
+}
+}

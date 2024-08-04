@@ -1,0 +1,37 @@
+.footer-comp h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.footer-comp  ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-comp  ul li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.footer-comp  ul li a{
+    color: #A7AEB4;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.f-angle{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-right: 8px;
+   
+
+}
+@media screen and (min-width: 580px) and (max-width: 990px) {
+  
+    .footer-comp{
+      flex: 1 1 calc(33.333% - 16px);
+
+    }
+  }

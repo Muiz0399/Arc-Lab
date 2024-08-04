@@ -1,0 +1,111 @@
+/* HappyClients.css */
+.happy-clients {
+    background-color: #f8f9fa !important;
+}
+
+.happy-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0 50px 0px;
+}
+
+.hc-subheading {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 0;
+    color: #96bb7c;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.hc-subheading::after,
+.hc-subheading::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #96bb7c;
+}
+
+.hc-subheading::after {
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+}
+
+.hc-subheading::before {
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+}
+
+.happy-top h2 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.testimonials {
+    width: calc(100% - 106px);
+    padding-left: 103px;
+}
+
+.swiper-container {
+    width: 90%;
+    height: auto;
+}
+
+.ss-slide {
+    width: 350px !important;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 !important;
+    margin-right: 0 !important;
+}
+
+.swiper-pagination {
+    bottom: 10px !important;
+    /* padding-right: 50px; */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #96bb7c !important;
+}
+
+.custom-swiper .swiper-slide {
+    margin-right: 0px !important;
+}
+
+@media (max-width: 640px) {
+    .custom-swiper .swiper-slide {
+        margin-right: 10px !important;
+    }
+    .testimonials {
+        width: calc(100% - 20px);
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .custom-swiper .swiper-slide {
+        margin-right: 10px !important;
+    }
+    .testimonials {
+        width: calc(100% - 106px);
+        padding-left: 70px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .custom-swiper .swiper-slide {
+        margin-right: 30px !important;
+    }
+}

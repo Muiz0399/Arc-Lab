@@ -1,0 +1,43 @@
+.si-services {
+    padding: 30px 0px;
+    transition: all 0.3s ease;
+}
+.s-i-container{
+    width: 100%;
+
+}
+.s-i-icon{
+    margin: 10px 0px;
+}
+.sicon{
+    color: #96bb7c;
+    
+}
+.s-i-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;;
+}
+
+.s-i-text p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8); ;
+    line-height: 1.5;
+    padding: 0px 40px;
+}
+
+
+
+
+@media screen and (min-width: 580px) and (max-width: 770px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .s-i-text p {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8); ;
+        line-height: 1.5;
+        padding: 0px 5px;
+    }
+}

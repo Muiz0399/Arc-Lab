@@ -1,0 +1,64 @@
+.si-props {
+  padding: 120px 80px 50px 80px;
+}
+
+.si-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.si-container>div {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 790px) and (max-width: 1073px) {
+  .si-container > div {
+    flex: 1 1 calc(50% - 20px); 
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 770px) {
+  .si-container {
+    display: block;
+  }
+  
+  .si-container>div {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius:0px;
+    padding: 5px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+  .si-container {
+    display: block;
+  }
+  
+  .si-container>div {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius:0px;
+    padding: 5px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
